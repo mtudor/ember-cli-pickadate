@@ -25,7 +25,7 @@ export default Picker.extend({
   classNames: ['ember-pick-a-time'],
 
   didInsertElement() {
-    const defaults = this.getOptions().date;
+    const defaults = this.getOptions().time;
     const options = {
       ...defaults,
       ...this.attrs.options
